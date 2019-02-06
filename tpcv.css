@@ -1,0 +1,114 @@
+h2
+{
+
+	font-family: Trebuchet MS;
+	color: #256F92;
+	opacity: 0.8;
+	text-align: center;
+	font-weight: normal;
+	border-bottom: 2px solid #256F92;
+}
+
+.imageflottante 
+{
+
+	width:150px;
+	height:200px;
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border: 4px #F8998F solid;
+
+}
+
+body 
+{
+	background-image:url("./brique.jpg");
+	opacity: 09px;
+}
+
+.introduction
+{
+	font-family: arial;
+	color: black;
+	opacity: 0.9;
+	text-align: center;
+	
+}
+.Mes_experiences
+{
+    width: 600px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 2px solid black;
+    text-align: justify;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #F2F3F4;
+     
+}
+
+.introduction 
+{
+	width: 1000px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px dotted red;
+    background-color: white;
+}
+
+
+.Missions
+{
+	color: #17202A;
+    font-family: georgia;
+    font-size: 15px;
+}
+.type_contrat
+{
+	background-color: #D5D8DC  ;
+}
+.poste 
+{
+	font-family: Comic sans MS;
+	color :#CD6155;
+
+}
+
+.description_entreprise
+{
+	padding: 16px;
+}
+.company
+{
+	color: #909497;
+}
+
+.date_range
+{
+	color: #909497;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+a:visited 
+{
+    color: blue; /* pour que le lien de la page qui a été consulté reste blue*/
+}
+
+.Titre
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
